@@ -6,4 +6,4 @@ RUN apt-get update \
  && apt-get install -y tzdata \
  && rm -rf /var/lib/apt/lists/*
  
-ENV TZ=Europe/Moscow
+ENV TZ=Europe/Moscow 
